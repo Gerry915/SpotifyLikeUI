@@ -52,6 +52,7 @@
 		B70C0D8D2829F37E006A7BA5 /* UICollectionViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extension.swift"; sourceTree = "<group>"; };
 		B70C0D902829F5FD006A7BA5 /* CollectionViewHorizontalLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHorizontalLayout.swift; sourceTree = "<group>"; };
 		B70C0D92282A4634006A7BA5 /* TrackListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListCell.swift; sourceTree = "<group>"; };
+		B70C0D94282A9296006A7BA5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +69,6 @@
 		B70C0D4B2828AF9C006A7BA5 = {
 			isa = PBXGroup;
 			children = (
-				B70C0D742828D3A8006A7BA5 /* ContainerViewController.swift */,
 				B70C0D562828AF9C006A7BA5 /* SpotifyUI */,
 				B70C0D552828AF9C006A7BA5 /* Products */,
 			);
@@ -96,6 +96,8 @@
 				B70C0D702828B095006A7BA5 /* MusicViewController.swift */,
 				B70C0D722828B0BA006A7BA5 /* PodcastViewController.swift */,
 				B70C0D792828EC65006A7BA5 /* SwipeViewController.swift */,
+				B70C0D742828D3A8006A7BA5 /* ContainerViewController.swift */,
+				B70C0D94282A9296006A7BA5 /* README.md */,
 			);
 			path = SpotifyUI;
 			sourceTree = "<group>";
