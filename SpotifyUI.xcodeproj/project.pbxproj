@@ -69,6 +69,7 @@
 		B70C0D4B2828AF9C006A7BA5 = {
 			isa = PBXGroup;
 			children = (
+				B70C0D94282A9296006A7BA5 /* README.md */,
 				B70C0D562828AF9C006A7BA5 /* SpotifyUI */,
 				B70C0D552828AF9C006A7BA5 /* Products */,
 			);
@@ -97,7 +98,6 @@
 				B70C0D722828B0BA006A7BA5 /* PodcastViewController.swift */,
 				B70C0D792828EC65006A7BA5 /* SwipeViewController.swift */,
 				B70C0D742828D3A8006A7BA5 /* ContainerViewController.swift */,
-				B70C0D94282A9296006A7BA5 /* README.md */,
 			);
 			path = SpotifyUI;
 			sourceTree = "<group>";
