@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		B70C0D582828AF9C006A7BA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D572828AF9C006A7BA5 /* AppDelegate.swift */; };
 		B70C0D5A2828AF9C006A7BA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D592828AF9C006A7BA5 /* SceneDelegate.swift */; };
-		B70C0D5C2828AF9C006A7BA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D5B2828AF9C006A7BA5 /* ViewController.swift */; };
-		B70C0D5F2828AF9C006A7BA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70C0D5D2828AF9C006A7BA5 /* Main.storyboard */; };
 		B70C0D612828AF9F006A7BA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70C0D602828AF9F006A7BA5 /* Assets.xcassets */; };
 		B70C0D642828AF9F006A7BA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70C0D622828AF9F006A7BA5 /* LaunchScreen.storyboard */; };
+		B70C0D6F2828B01D006A7BA5 /* TitleBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D6E2828B01D006A7BA5 /* TitleBarViewController.swift */; };
+		B70C0D712828B096006A7BA5 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D702828B095006A7BA5 /* MusicViewController.swift */; };
+		B70C0D732828B0BA006A7BA5 /* PodcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D722828B0BA006A7BA5 /* PodcastViewController.swift */; };
+		B70C0D752828D3A8006A7BA5 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D742828D3A8006A7BA5 /* ContainerViewController.swift */; };
+		B70C0D7A2828EC65006A7BA5 /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D792828EC65006A7BA5 /* SwipeViewController.swift */; };
+		B70C0D7D28292245006A7BA5 /* TitleBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D7C28292245006A7BA5 /* TitleBarButton.swift */; };
+		B70C0D80282939D2006A7BA5 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D7F282939D2006A7BA5 /* UIFont+Extension.swift */; };
+		B70C0D82282939EA006A7BA5 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D81282939EA006A7BA5 /* ViewController+Extension.swift */; };
+		B70C0D8428293B10006A7BA5 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D8328293B10006A7BA5 /* UIColor+Extension.swift */; };
+		B70C0D8628293D88006A7BA5 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D8528293D88006A7BA5 /* TrackCell.swift */; };
+		B70C0D8828293EA3006A7BA5 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D8728293EA3006A7BA5 /* ReusableView.swift */; };
+		B70C0D8A28293F5C006A7BA5 /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D8928293F5C006A7BA5 /* UITableViewCell+Extension.swift */; };
+		B70C0D8C28294A12006A7BA5 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D8B28294A12006A7BA5 /* MenuBar.swift */; };
+		B70C0D8E2829F37E006A7BA5 /* UICollectionViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D8D2829F37E006A7BA5 /* UICollectionViewCell+Extension.swift */; };
+		B70C0D912829F5FD006A7BA5 /* CollectionViewHorizontalLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D902829F5FD006A7BA5 /* CollectionViewHorizontalLayout.swift */; };
+		B70C0D93282A4634006A7BA5 /* TrackListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D92282A4634006A7BA5 /* TrackListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B70C0D542828AF9C006A7BA5 /* SpotifyUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70C0D572828AF9C006A7BA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B70C0D592828AF9C006A7BA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B70C0D5B2828AF9C006A7BA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B70C0D5E2828AF9C006A7BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B70C0D602828AF9F006A7BA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B70C0D632828AF9F006A7BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B70C0D652828AF9F006A7BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B70C0D6E2828B01D006A7BA5 /* TitleBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBarViewController.swift; sourceTree = "<group>"; };
+		B70C0D702828B095006A7BA5 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		B70C0D722828B0BA006A7BA5 /* PodcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastViewController.swift; sourceTree = "<group>"; };
+		B70C0D742828D3A8006A7BA5 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		B70C0D792828EC65006A7BA5 /* SwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
+		B70C0D7C28292245006A7BA5 /* TitleBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBarButton.swift; sourceTree = "<group>"; };
+		B70C0D7F282939D2006A7BA5 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		B70C0D81282939EA006A7BA5 /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
+		B70C0D8328293B10006A7BA5 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		B70C0D8528293D88006A7BA5 /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		B70C0D8728293EA3006A7BA5 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		B70C0D8928293F5C006A7BA5 /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		B70C0D8B28294A12006A7BA5 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		B70C0D8D2829F37E006A7BA5 /* UICollectionViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extension.swift"; sourceTree = "<group>"; };
+		B70C0D902829F5FD006A7BA5 /* CollectionViewHorizontalLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHorizontalLayout.swift; sourceTree = "<group>"; };
+		B70C0D92282A4634006A7BA5 /* TrackListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +68,7 @@
 		B70C0D4B2828AF9C006A7BA5 = {
 			isa = PBXGroup;
 			children = (
+				B70C0D742828D3A8006A7BA5 /* ContainerViewController.swift */,
 				B70C0D562828AF9C006A7BA5 /* SpotifyUI */,
 				B70C0D552828AF9C006A7BA5 /* Products */,
 			);
@@ -56,15 +85,84 @@
 		B70C0D562828AF9C006A7BA5 /* SpotifyUI */ = {
 			isa = PBXGroup;
 			children = (
-				B70C0D572828AF9C006A7BA5 /* AppDelegate.swift */,
-				B70C0D592828AF9C006A7BA5 /* SceneDelegate.swift */,
-				B70C0D5B2828AF9C006A7BA5 /* ViewController.swift */,
-				B70C0D5D2828AF9C006A7BA5 /* Main.storyboard */,
-				B70C0D602828AF9F006A7BA5 /* Assets.xcassets */,
-				B70C0D622828AF9F006A7BA5 /* LaunchScreen.storyboard */,
-				B70C0D652828AF9F006A7BA5 /* Info.plist */,
+				B70C0D8F2829F5E6006A7BA5 /* Layout */,
+				B70C0D7E282922B0006A7BA5 /* View */,
+				B70C0D7B28292236006A7BA5 /* Extension */,
+				B70C0D762828EB8C006A7BA5 /* Protocol */,
+				B70C0D6D2828AFED006A7BA5 /* App Delegates */,
+				B70C0D6C2828AFE9006A7BA5 /* Support */,
+				B70C0D6B2828AFE5006A7BA5 /* Resources */,
+				B70C0D6E2828B01D006A7BA5 /* TitleBarViewController.swift */,
+				B70C0D702828B095006A7BA5 /* MusicViewController.swift */,
+				B70C0D722828B0BA006A7BA5 /* PodcastViewController.swift */,
+				B70C0D792828EC65006A7BA5 /* SwipeViewController.swift */,
 			);
 			path = SpotifyUI;
+			sourceTree = "<group>";
+		};
+		B70C0D6B2828AFE5006A7BA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B70C0D602828AF9F006A7BA5 /* Assets.xcassets */,
+				B70C0D622828AF9F006A7BA5 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B70C0D6C2828AFE9006A7BA5 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B70C0D652828AF9F006A7BA5 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		B70C0D6D2828AFED006A7BA5 /* App Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				B70C0D572828AF9C006A7BA5 /* AppDelegate.swift */,
+				B70C0D592828AF9C006A7BA5 /* SceneDelegate.swift */,
+			);
+			path = "App Delegates";
+			sourceTree = "<group>";
+		};
+		B70C0D762828EB8C006A7BA5 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B70C0D8728293EA3006A7BA5 /* ReusableView.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		B70C0D7B28292236006A7BA5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B70C0D7F282939D2006A7BA5 /* UIFont+Extension.swift */,
+				B70C0D81282939EA006A7BA5 /* ViewController+Extension.swift */,
+				B70C0D8328293B10006A7BA5 /* UIColor+Extension.swift */,
+				B70C0D8928293F5C006A7BA5 /* UITableViewCell+Extension.swift */,
+				B70C0D8D2829F37E006A7BA5 /* UICollectionViewCell+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B70C0D7E282922B0006A7BA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B70C0D7C28292245006A7BA5 /* TitleBarButton.swift */,
+				B70C0D8528293D88006A7BA5 /* TrackCell.swift */,
+				B70C0D8B28294A12006A7BA5 /* MenuBar.swift */,
+				B70C0D92282A4634006A7BA5 /* TrackListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B70C0D8F2829F5E6006A7BA5 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				B70C0D902829F5FD006A7BA5 /* CollectionViewHorizontalLayout.swift */,
+			);
+			path = Layout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +225,6 @@
 			files = (
 				B70C0D642828AF9F006A7BA5 /* LaunchScreen.storyboard in Resources */,
 				B70C0D612828AF9F006A7BA5 /* Assets.xcassets in Resources */,
-				B70C0D5F2828AF9C006A7BA5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +235,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B70C0D5C2828AF9C006A7BA5 /* ViewController.swift in Sources */,
+				B70C0D7D28292245006A7BA5 /* TitleBarButton.swift in Sources */,
+				B70C0D712828B096006A7BA5 /* MusicViewController.swift in Sources */,
+				B70C0D6F2828B01D006A7BA5 /* TitleBarViewController.swift in Sources */,
+				B70C0D8428293B10006A7BA5 /* UIColor+Extension.swift in Sources */,
+				B70C0D732828B0BA006A7BA5 /* PodcastViewController.swift in Sources */,
 				B70C0D582828AF9C006A7BA5 /* AppDelegate.swift in Sources */,
+				B70C0D752828D3A8006A7BA5 /* ContainerViewController.swift in Sources */,
+				B70C0D8A28293F5C006A7BA5 /* UITableViewCell+Extension.swift in Sources */,
+				B70C0D8828293EA3006A7BA5 /* ReusableView.swift in Sources */,
+				B70C0D80282939D2006A7BA5 /* UIFont+Extension.swift in Sources */,
+				B70C0D912829F5FD006A7BA5 /* CollectionViewHorizontalLayout.swift in Sources */,
+				B70C0D7A2828EC65006A7BA5 /* SwipeViewController.swift in Sources */,
+				B70C0D82282939EA006A7BA5 /* ViewController+Extension.swift in Sources */,
+				B70C0D8E2829F37E006A7BA5 /* UICollectionViewCell+Extension.swift in Sources */,
+				B70C0D8628293D88006A7BA5 /* TrackCell.swift in Sources */,
+				B70C0D93282A4634006A7BA5 /* TrackListCell.swift in Sources */,
 				B70C0D5A2828AF9C006A7BA5 /* SceneDelegate.swift in Sources */,
+				B70C0D8C28294A12006A7BA5 /* MenuBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B70C0D5D2828AF9C006A7BA5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B70C0D5E2828AF9C006A7BA5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B70C0D622828AF9F006A7BA5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +393,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 64TX422529;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SpotifyUI/Info.plist;
+				INFOPLIST_FILE = SpotifyUI/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,10 +420,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 64TX422529;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SpotifyUI/Info.plist;
+				INFOPLIST_FILE = SpotifyUI/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
