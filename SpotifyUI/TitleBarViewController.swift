@@ -101,9 +101,23 @@ class TitleBarViewController: UIViewController {
         navigationItem.leftBarButtonItems = [musicBarButton, podcastsBarButton]
         musicBarButton.customView?.alpha = 1.0
         
-        let image = UIImage()
+        let barImage = UIImage(systemName: "gearshape.circle.fill")
+        barImage?.withRenderingMode(.alwaysOriginal)
+        let rightBarButtonItem = UIBarButtonItem(image: barImage, style: .plain, target: self, action: #selector(handleSettingsTapped))
+        rightBarButtonItem.tintColor = .white
         
+        navigationItem.rightBarButtonItems = [rightBarButtonItem]
+        
+        let image = UIImage()
         navigationController?.navigationBar.shadowImage = image
+        
+        navigationItem.backButtonDisplayMode = .minimal
+    }
+    
+    @objc private func handleSettingsTapped() {
+        let vc = SettingsViewController()
+        vc.title = "Settings"
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     private func makeBarButtonItem(title: String, selector: Selector) -> UIBarButtonItem {

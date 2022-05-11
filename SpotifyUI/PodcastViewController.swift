@@ -12,7 +12,7 @@ class PodcastViewController: SwipeViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .red
+        view.backgroundColor = UIColor.systemBackground
     }
     
 }

@@ -27,6 +27,7 @@
 		B70C0D8E2829F37E006A7BA5 /* UICollectionViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D8D2829F37E006A7BA5 /* UICollectionViewCell+Extension.swift */; };
 		B70C0D912829F5FD006A7BA5 /* CollectionViewHorizontalLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D902829F5FD006A7BA5 /* CollectionViewHorizontalLayout.swift */; };
 		B70C0D93282A4634006A7BA5 /* TrackListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C0D92282A4634006A7BA5 /* TrackListCell.swift */; };
+		B78A85B1282BA76000364414 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78A85B0282BA76000364414 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		B70C0D902829F5FD006A7BA5 /* CollectionViewHorizontalLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHorizontalLayout.swift; sourceTree = "<group>"; };
 		B70C0D92282A4634006A7BA5 /* TrackListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListCell.swift; sourceTree = "<group>"; };
 		B70C0D94282A9296006A7BA5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B78A85B0282BA76000364414 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				B70C0D6C2828AFE9006A7BA5 /* Support */,
 				B70C0D6B2828AFE5006A7BA5 /* Resources */,
 				B70C0D6E2828B01D006A7BA5 /* TitleBarViewController.swift */,
+				B78A85B0282BA76000364414 /* SettingsViewController.swift */,
 				B70C0D702828B095006A7BA5 /* MusicViewController.swift */,
 				B70C0D722828B0BA006A7BA5 /* PodcastViewController.swift */,
 				B70C0D792828EC65006A7BA5 /* SwipeViewController.swift */,
@@ -242,6 +245,7 @@
 				B70C0D6F2828B01D006A7BA5 /* TitleBarViewController.swift in Sources */,
 				B70C0D8428293B10006A7BA5 /* UIColor+Extension.swift in Sources */,
 				B70C0D732828B0BA006A7BA5 /* PodcastViewController.swift in Sources */,
+				B78A85B1282BA76000364414 /* SettingsViewController.swift in Sources */,
 				B70C0D582828AF9C006A7BA5 /* AppDelegate.swift in Sources */,
 				B70C0D752828D3A8006A7BA5 /* ContainerViewController.swift in Sources */,
 				B70C0D8A28293F5C006A7BA5 /* UITableViewCell+Extension.swift in Sources */,
